@@ -1,0 +1,58 @@
+/* Reset and base styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #1b1b1b;
+  line-height: 1.6;
+  transition: background-color 0.3s ease;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  background-color: #b3afaf;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation links */
+nav a {
+  min-width: 6rem;
+  padding: 0.6rem 2.5rem;
+  border-radius: 6px;
+  border: 1px solid #212121;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #111111;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  background-color: #4455d7cf;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
